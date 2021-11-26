@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>radiation_msgs</name>
+  <version>1.0.0</version>
+  <description>
+    This package provides radiation message structures to convey
+    data from radiation sensors to other systems.
+  </description>
+  <maintainer email="andrew.west@manchester.ac.uk">Andy West</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">https://github.com/EEEManchester/radiation_msgs</url>
+
+  <author email="andrew.west@manchester.ac.uk">Andy West</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+
+  <build_depend>message_generation</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <build_export_depend>std_msgs</build_export_depend>
+
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <export>
+  </export>
+</package>
