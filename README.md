@@ -37,7 +37,7 @@ This package currently has no dependancies on other packages, besides the stock 
 
 # More Information
 
-These message structures were a result of community consulation and collaboration, with the [original workshop found here](https://youtu.be/rdy53jwjKZA), a document ([ROS Messages for Nuclear Sensing](https://www.ans.org/pubs/proceedings/article-50813/)) outlining the choices and eventual rationale.
+These message structures were a result of community consulation and collaboration, with the [original workshop found here](https://youtu.be/rdy53jwjKZA), a document ([ROS Messages for Nuclear Sensing](https://www.ans.org/pubs/proceedings/article-50813/)) outlining the choices and eventual rationale.  An open access copy of the document can be [found here](https://www.research.manchester.ac.uk/portal/files/223331152/ROS_Messages_for_Nuclear_Sensing.pdf).
 
 ## Bugs & Feature Requests
 Please report bugs and request features using the [Issue Tracker](https://github.com/EEEManchester/radiation_msgs/issues).
