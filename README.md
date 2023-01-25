@@ -1,7 +1,7 @@
 # radiation_msgs Package
 
 # Overview
-This package offers standardised ROS message structures to communicate radiation information between nodes, primarily from detectors directly.  Detectors covers a broad range of instruments from personal dosimeters to spectrometers, all used as part of nuclear inspection tasks.
+This package offers standardised *ROS2* message structures to communicate radiation information between nodes, primarily from detectors directly.  Detectors covers a broad range of instruments from personal dosimeters to spectrometers, all used as part of nuclear inspection tasks.
 
 Messages can explicitly communicate radiation type (alpha, beta, gamma, neutron), along with key metrics that the majority of devices provide.
 
@@ -28,12 +28,12 @@ To build from this repo, clone the latest version from this repository into your
 
 ```
 cd catkin_ws/src
-git clone https://github.com/EEEManchester/radiation_msgs.git
+git clone --branch ros2 https://github.com/EEEManchester/radiation_msgs.git
 cd ..
-catkin_make
+colcon_build
 ```
 
-This package currently has no dependancies on other packages, besides the stock ROS std_msgs package.
+This package currently has no dependancies on other packages, besides the stock ROS2 std_msgs package.
 
 # More Information
 

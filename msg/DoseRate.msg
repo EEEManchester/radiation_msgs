@@ -1,6 +1,6 @@
 # Dose Rate of Ionising Radiation
 
-Header header			# timestamp in the header is the time
+std_msgs/Header header		# timestamp in the header is the time
 				# immediately after the integration window
 				# has closed
 				# frame indicates location of detector

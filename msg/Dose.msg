@@ -1,6 +1,6 @@
 # Accummulated Dose of Ionising Radiation
 
-Header header			# timestamp in the header is the time
+std_msgs/Header header		# timestamp in the header is the time
 				# immediately at the point of measurement
 				# frame indicates location of detector
 
