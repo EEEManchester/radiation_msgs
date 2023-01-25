@@ -3,6 +3,8 @@
 # Overview
 This package offers standardised ROS message structures to communicate radiation information between nodes, primarily from detectors directly.  Detectors covers a broad range of instruments from personal dosimeters to spectrometers, all used as part of nuclear inspection tasks.
 
+For ROS2 distributions, please see the ["ros2" branch](https://github.com/EEEManchester/radiation_msgs/tree/ros2).
+
 Messages can explicitly communicate radiation type (alpha, beta, gamma, neutron), along with key metrics that the majority of devices provide.
 
 This package (currently) provides message structures for:
