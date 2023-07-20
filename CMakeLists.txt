@@ -39,7 +39,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/DoseRate.msg"
   "msg/Alarm.msg"
   "msg/Spectral.msg"
-  DEPENDENCIES builtin_interfaces
+  DEPENDENCIES std_msgs builtin_interfaces
 )
 
 ament_package()
