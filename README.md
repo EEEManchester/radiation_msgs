@@ -24,13 +24,13 @@ Damage to materials, electronics, and human biology may be an important criteria
 Spectrometers offer energy resolved indication of activity.  Specific isotopes will emit specific energies of radiation, which can be used to infer what materials are present.  For example, Cs-137 is an common isotope to investigate, with gamma-ray emission energy around 660 keV.
 
 # Installation
-To build from this repo, clone the latest version from this repository into your catkin workspace and compile using:
+To build from this repo, clone the latest version from this repository into your workspace (written here as ```ros2_ws```) and compile using:
 
 ```
-cd catkin_ws/src
+cd ros2_ws/src
 git clone --branch ros2 https://github.com/EEEManchester/radiation_msgs.git
 cd ..
-colcon_build
+colcon build
 ```
 
 This package currently has no dependancies on other packages, besides the stock ROS2 std_msgs package.
