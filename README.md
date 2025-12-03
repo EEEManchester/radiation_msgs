@@ -30,7 +30,7 @@ To build from this repo, clone the latest version from this repository into your
 cd ros2_ws/src
 git clone --branch ros2 https://github.com/EEEManchester/radiation_msgs.git
 cd ..
-colcon build
+colcon build --packages-select radiation_msgs
 ```
 
 This package currently has no dependancies on other packages, besides the stock ROS2 std_msgs package.
